@@ -1,0 +1,32 @@
+body {
+	background-color: Moccasin;
+}
+
+h1{
+	color: blue;
+}
+
+h2{
+	color: red;
+}
+
+#tabellData{
+	float: left;
+}
+#stolpeData{
+	float: left;
+	margin: 50px;
+}
+
+table, th, td {
+	border: 1px solid blue;
+}
+table {
+	border-collapse: collapse;    
+}
+
+th, td {
+	text-align: center;
+}
+
+	

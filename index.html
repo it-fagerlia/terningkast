@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang=no">
+    <head>
+		<meta charset="utf-8" />
+		<title> Terningkast </title> 
+		<link rel="stylesheet" type="text/css" href="stil.css" />
+		<script src = "classLibrary.js"> </script>
+		<script src = "script.js"> </script>
+	</head>
+	<body>	
+		<h1>Simulator Terningkast</h1>
+		
+		<label for  = "nmbSides">  Antall terningsider.. </label>
+		<input type = "text" id="nmbSides" value="6" maxlength="2" size="3">
+		
+		<label for  = "nmbThrows"> Antall terningkast... </label>
+		<input type = "text" id = "nmbThrows" value ="10000" maxlength="8" size = "10">
+		
+		<button id="btnRun"> Simuler eksperiment </button><br>
+		 
+		<h2  id = "resultatOverskrift"></h2>
+		<div id = "stolpeData">
+			<canvas id = "canvas" width = "300" height = "300"> </canvas>
+		</div>
+		<div id = "tabellData">
+			<br><br><br><br><br><br><br>
+			<p  id = "tabellUtskrift"> </p>
+		</div> 
+
+		<p  id = "tidsUtskrift"> </p>
+    </body>
+	
+</html>
